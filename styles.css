@@ -1,2 +1,49 @@
+.player {
+  max-width: 765px;
+  margin: 50px auto;
+  border: 5px solid #333;
+  background: #000;
+  color: white;
+  position: relative;
+}
 
-/* Your CSS Code here. */
+.player__video {
+  width: 100%;
+  display: block;
+}
+
+.player__controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+.player__button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.player__slider {
+  width: 100px;
+}
+
+.progress {
+  flex: 1;
+  height: 10px;
+  background: #555;
+  cursor: pointer;
+  margin-left: 10px;
+  position: relative;
+}
+
+.progress__filled {
+  width: 0%;
+  background: #e74c3c;
+  flex: 0;
+  height: 100%;
+}
